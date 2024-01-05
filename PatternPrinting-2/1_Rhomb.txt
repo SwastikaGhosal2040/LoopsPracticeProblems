@@ -1,0 +1,25 @@
+         *  *  *  *       - - -       * * * *
+      *  *  *  *          - -      +  * * * *
+   *  *  *  *          -> -           * * * *
+*  *  *  *                            * * * *
+
+
+- - -
+- -
+-      To print this: We can see in 4th line no space is there.
+                      no of space = (row no-1)
+                      for(int i=1;i<=n;i++)
+                       {
+                        //spaces:n-i+1-1
+                         for(int j=1;j<=n-i;j++)
+                          {
+                            print spaces
+                          }
+                         //stars square
+                        for(int k=1;k<=n;k++)
+                        {
+                          print stars
+                        }
+                       print new line
+
+                       }
